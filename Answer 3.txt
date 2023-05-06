@@ -1,0 +1,22 @@
+Local Variable - Unlike state Variables, Local variables are not stored on the Blockchain.
+Smart Contract for understanding Local Variables:
+contract LocalVariables
+{
+   unit public firstvariable;
+   bool public secondvariable;
+   address public myaddress;
+
+  function localvariables() external
+  {
+     unit Mynumber=123;
+     bool Myboolean=false;
+
+     Mynumber=Mynumber+123;
+     Myboolean=true;
+
+     firstvariable=123;
+     secondvariable=true;
+     myaddress=address(1);
+   }
+
+}

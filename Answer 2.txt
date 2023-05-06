@@ -1,0 +1,24 @@
+State Variable are stored on the Blockchain. So you can save some data into a state variable.Even after closing the contract also the data will be saved in the state variables on the Blockchain.
+Smart Contract for understanding state variables-
+contract stateVariables
+{
+   unit public mynumber;
+   function setmynumber(unit_mynumber) external
+   {
+       mynumber = _mynumber;
+   }
+   function resetmynumber() external
+   {
+       mynumber=0;
+   }
+   function getmynumber() external view returns (unit)
+   {
+       return mynumber;
+   }
+   function getmynumberplusone() external view returns (unit)
+   {
+      return mynumber + 1;
+    }
+}
+
+ 

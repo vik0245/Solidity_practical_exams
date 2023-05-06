@@ -1,0 +1,11 @@
+Solidity is a brand-new programming language developed by Ethereum, the second-largest cryptocurrency market by capitalization.
+
+The important factors that makes Solidity so special:
+
+1- Functional:- Solidity language is used for smart contracts. 
+
+2- Flexible:- You can use a Remix IDE online compiler or download a command line compiler on your pc to write smart contracts.
+
+3- Promising:- The world spends billions on Blockchain solutions every year.While most of it comes from financial companies, all kinds of business use Blockchain .
+
+4- Improving:- Solidity language update, such as new features and bug fixes, are introduced constantly. 
